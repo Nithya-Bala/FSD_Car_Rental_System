@@ -1,0 +1,18 @@
+.welcome-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+
+.welcome-banner h1 {
+  font-size: 2.1rem;
+  font-weight: 600;
+}
+
+
+
+.name {
+  color: #3f72af;
+  font-weight: 700;
+}

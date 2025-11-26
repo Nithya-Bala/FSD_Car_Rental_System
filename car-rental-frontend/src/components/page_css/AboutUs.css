@@ -1,0 +1,56 @@
+/* About.css */
+.about-container {
+  background: linear-gradient(to right, #f4faff, #f0f7ff);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.about-card {
+  background-color: white;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 100%;
+  animation: fadeIn 0.8s ease;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  color: #0066cc;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-subtitle {
+  margin-top: 30px;
+  color: #004a99;
+}
+
+.about-text {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.about-list {
+  margin-top: 10px;
+  padding-left: 20px;
+  font-size: 1.05rem;
+  color: #333;
+}
+
+.about-subtitle {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #004a99;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+

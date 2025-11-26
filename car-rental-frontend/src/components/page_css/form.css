@@ -1,0 +1,145 @@
+
+/* ------------------------------- */
+/* .form-container {
+  background: linear-gradient(135deg, #cbccd1 0%, #a7dfee 100%);
+  background: linear-gradient(to right, #a7d1ed, #9face6);
+} */
+
+.form-card {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #ffffffd9;
+  transition: transform 0.3s ease;
+}
+
+.upload-vehicle-card{
+  max-width: 600px;
+}
+.lease-card{
+  max-width: 600px;
+}
+/* .form-card:hover {
+  transform: translateY(-5px);
+} */
+
+.form-card h2 {
+  font-weight: 700;
+  color: #2b2d42;
+  margin-bottom: 10px;
+}
+
+.form-card input,.form-card select {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: border 0.3s ease;
+}
+
+.form-control:focus,.form-select:focus {
+  border-color: #3f72af;
+  box-shadow: 0 0 0 0.1rem rgba(63, 114, 175, 0.25);
+} 
+ 
+
+.btn-primary {
+  margin-top: 10px;
+  background-color: #3f72af;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #2b4865;
+}
+
+.profile-btn{
+  justify-content: center;
+}
+
+.btn-submit {
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #3f72af;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  padding: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: #3f71afaf;
+  color: white;
+}
+
+.btn-cancel {
+  border-radius: 8px;
+  margin-top: 10px;
+  background-color: #6c757d;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  border: none;
+  padding: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-cancel:hover {
+  background-color: #6c757da9;
+  color: white;
+}
+
+/* .btn-cancel{
+    background-color: grey;
+}
+
+.btn-cancel:hover{
+    background-color: rgb(90, 90, 90);
+    color: white;
+} */
+/* 
+.profile-btn{
+    margin-bottom: 15px;
+} */
+
+.login-link {
+  text-decoration: none;
+  color: #3f72af;
+  font-weight: 600;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+  color: #2b4865;
+}
+
+.register-link {
+  text-decoration: none;
+  color: #3f72af;
+  font-weight: 600;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+  color: #2b4865;
+}
+
+.error-text {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 3px;
+}

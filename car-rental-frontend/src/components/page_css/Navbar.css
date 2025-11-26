@@ -1,0 +1,23 @@
+/* Navbar.css */
+.nav-link.custom-hover {
+  color: white !important;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link.custom-hover:hover {
+  color: #ffc107 !important;
+  transform: scale(1.05);
+  text-decoration: underline;
+}
+
+.profile-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+  border: 2px solid white;
+  padding: 2px;
+}
