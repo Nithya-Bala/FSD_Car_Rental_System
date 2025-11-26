@@ -49,6 +49,7 @@ A modern full-stack vehicle rental application developed using Flask (Python), M
 ##  Project Structure
 
 
+```
 FSD/
 ├── car-rental-backend/
 │   ├── app.py
@@ -65,6 +66,7 @@ FSD/
 │   │   └── index.js
 │   └── package.json
 └── README.md
+```
 
 
 ```
