@@ -67,6 +67,48 @@ FSD/
 └── README.md
 
 
+```
+mern-ecommerce-2024/
+├── server/
+│   ├── controllers/
+│   │   ├── admin/
+│   │   ├── auth/
+│   │   ├── common/
+│   │   └── shop/
+│   ├── models/
+│   ├── routes/
+│   │   ├── admin/
+│   │   ├── auth/
+│   │   ├── common/
+│   │   └── shop/
+│   ├── helpers/
+│   ├── .env
+│   ├── server.js
+│   └── package.json
+├── client/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── admin-view/
+│   │   │   ├── auth/
+│   │   │   ├── common/
+│   │   │   ├── shopping-view/
+│   │   │   └── ui/
+│   │   ├── pages/
+│   │   │   ├── admin-view/
+│   │   │   ├── auth/
+│   │   │   └── shopping-view/
+│   │   ├── store/
+│   │   │   ├── admin/
+│   │   │   ├── auth-slice/
+│   │   │   ├── common-slice/
+│   │   │   └── shop/
+│   │   ├── config/
+│   │   └── lib/
+│   ├── package.json
+│   └── vite.config.js
+└── README.md
+```
+
 
 ##  Installation & Setup
 
